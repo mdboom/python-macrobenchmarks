@@ -7,3 +7,4 @@ dynamic = ["version"]
 
 [tool.pyperformance]
 inherits = ".."
+extra_opts = ["--loops", "20"]

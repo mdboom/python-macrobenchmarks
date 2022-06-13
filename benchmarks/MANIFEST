@@ -9,7 +9,6 @@ gunicorn	<local>
 json	<local>
 kinto	<local>
 mypy	<local>
-mypyc	<local:mypy>
 pycparser	<local>
 pylint	<local>
 pytorch_alexnet_inference	<local>
@@ -25,5 +24,4 @@ flaskblogging
 kinto
 
 [group all]
--mypyc
 -json
